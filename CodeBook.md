@@ -45,11 +45,11 @@ The following files are available for the train and test data. Their description
 
 ##Transformations
 
-*The measurements on the mean and standard deviation (i.e. signals containing the strings `mean` and `std`) were extracted to merge the new dataset, and the others were discarded.
-*The activity identifiers (originally coded as integers between 1 and 6) were replaced with descriptive activity names.
-*The variable names were replaced with descriptive variable names (e.g. `tBodyAcc-mean()-X` was expanded to `TimeBodyAccelerometer-Mean()-X`), using the following set of rules:
+* The measurements on the mean and standard deviation (i.e. signals containing the strings `mean` and `std`) were extracted to merge the new dataset, and the others were discarded.
+* The activity identifiers (originally coded as integers between 1 and 6) were replaced with descriptive activity names.
+* The variable names were replaced with descriptive variable names (e.g. `tBodyAcc-mean()-X` was expanded to `TimeBodyAccelerometer-Mean()-X`), using the following set of rules:
 	- The initial `f` and `t` were expanded to `Frequency` and `Time` respectively.
 	- `Acc`, `Gyro`, `Mag`, `mean`, and `std` were replaced with `Accelerometer`, `Gyroscope`, `Magnitude`, `Mean`, and `StandardDeviation` respectively.
-*From the data set in step 4, the final data set was created with the average of each variable for each activity and each subject.
+* From the data set in step 4, the final data set was created with the average of each variable for each activity and each subject.
 
 The collection of the source data and the transformations listed above were implemented by the `run_analysis.R` R script.
