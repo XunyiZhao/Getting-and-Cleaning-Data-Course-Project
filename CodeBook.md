@@ -43,7 +43,7 @@ The following files are available for the train and test data. Their description
 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
 
-##Transformations
+## Transformations
 
 * The measurements on the mean and standard deviation (i.e. signals containing the strings `mean` and `std`) were extracted to merge the new dataset, and the others were discarded.
 * The activity identifiers (originally coded as integers between 1 and 6) were replaced with descriptive activity names.
