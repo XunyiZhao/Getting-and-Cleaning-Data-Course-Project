@@ -61,6 +61,6 @@ colnames(dt) <- dcr_name
 #group data by subject and activity, then apply mean fucntion
 tidy_dt <- dt %>% group_by(subject, activity) %>% summarise_each(funs(mean))
 
-# output to file "tidy_data.csv"
-write.table(tidy_dt, "tidy_data.csv", row.names = FALSE, quote = FALSE)
+# output to file "tidy_data.txt"
+write.table(tidy_dt, "tidy_data.txt", row.names = FALSE, quote = FALSE)
 
